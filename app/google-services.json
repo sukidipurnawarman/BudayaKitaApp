@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "190291284500",
+    "firebase_url": "https://kelompok2-5a118.firebaseio.com",
+    "project_id": "kelompok2-5a118",
+    "storage_bucket": "kelompok2-5a118.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190291284500:android:e3f44e303c973c64",
+        "android_client_info": {
+          "package_name": "com.example.budkitapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMeypmY6caWDMxjgUea3HbXMdbBV67NGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190291284500-4q68iqffc2kt94h7d9m4h47den6lu1vg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

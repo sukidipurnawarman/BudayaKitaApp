@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".SignUp">
+
+    <!-- Login progress -->
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:padding="20dp"
+        android:text="Register"
+        android:textColor="#FF7B23"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/namaRegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/emailRegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/namaRegis"
+        app:layout_constraintStart_toStartOf="@+id/namaRegis"
+        app:layout_constraintTop_toBottomOf="@+id/namaRegis" />
+
+    <EditText
+        android:id="@+id/passwordRegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/prompt_password"
+        android:imeActionId="6"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="@+id/emailRegis"
+        app:layout_constraintStart_toStartOf="@+id/emailRegis"
+        app:layout_constraintTop_toBottomOf="@+id/emailRegis" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:padding="15dp"
+        android:text="Personal Information"
+        android:textColor="#FF7B23"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/passwordRegis"
+        app:layout_constraintStart_toStartOf="@+id/passwordRegis"
+        app:layout_constraintTop_toBottomOf="@+id/passwordRegis" />
+
+    <EditText
+        android:id="@+id/lahirRegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Tanggal Lahir"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/hpRegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No. Handphone"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/lahirRegis"
+        app:layout_constraintStart_toStartOf="@+id/lahirRegis"
+        app:layout_constraintTop_toBottomOf="@+id/lahirRegis" />
+
+    <EditText
+        android:id="@+id/alamatRegis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/hpRegis"
+        app:layout_constraintStart_toStartOf="@+id/hpRegis"
+        app:layout_constraintTop_toBottomOf="@+id/hpRegis" />
+
+
+    <Button
+        android:id="@+id/register"
+        style="?android:textAppearanceSmall"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="32dp"
+        android:background="#FF7B23"
+        android:text="Continue"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/alamatRegis"
+        app:layout_constraintStart_toStartOf="@+id/alamatRegis"
+        app:layout_constraintTop_toBottomOf="@+id/alamatRegis" />
+
+
+</android.support.constraint.ConstraintLayout>
