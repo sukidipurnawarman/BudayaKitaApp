@@ -13,7 +13,7 @@
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#ffad76"
+            android:background="#9B9B9B"
             android:orientation="vertical"
             android:outlineAmbientShadowColor="#707070"
             android:outlineSpotShadowColor="#707070"
