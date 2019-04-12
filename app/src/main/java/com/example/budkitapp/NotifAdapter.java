@@ -13,8 +13,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import java.util.List;
 
-import java.util.List;
-
 public class NotifAdapter extends RecyclerView.Adapter<NotifAdapter.NotifViewHolder> {
     private Context mCtx;
     private List NotifList;

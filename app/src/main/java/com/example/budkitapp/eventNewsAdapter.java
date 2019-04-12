@@ -62,7 +62,7 @@ public class eventNewsAdapter extends RecyclerView.Adapter<eventNewsAdapter.even
         public eventNewsViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            imageView = itemView.findViewById(R.id.imageView);
+            imageView = itemView.findViewById(R.id.gambar_explore);
             textViewTitle = itemView.findViewById(R.id.textViewTitle);
             textViewDesc = itemView.findViewById(R.id.textViewShortDesc);
         }

@@ -26,7 +26,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_toRightOf="@id/imageView"
+                android:layout_toRightOf="@id/gambar_explore"
                 android:text="Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra) "
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                 android:textColor="#FFFFFF"
@@ -35,7 +35,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/gambar_explore"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
@@ -47,7 +47,7 @@
 
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/gambar_explore_2"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_gravity="center"
@@ -58,7 +58,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/imageView4"
                 app:layout_constraintEnd_toEndOf="@+id/textViewTitle"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:layout_constraintStart_toEndOf="@+id/gambar_explore"
                 app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
 
             <ImageView
@@ -72,10 +72,10 @@
                 android:layout_marginBottom="8dp"
                 android:padding="4dp"
                 app:layout_constraintBottom_toTopOf="@+id/textViewShortDesc"
-                app:layout_constraintEnd_toEndOf="@+id/imageView3"
+                app:layout_constraintEnd_toEndOf="@+id/gambar_explore_2"
                 app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/imageView"
-                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+                app:layout_constraintStart_toEndOf="@+id/gambar_explore"
+                app:layout_constraintTop_toBottomOf="@+id/gambar_explore_2" />
 
             <TextView
                 android:id="@+id/textViewShortDesc"
@@ -90,8 +90,8 @@
                 android:textColor="#FFFFFF"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/textViewTitle"
-                app:layout_constraintStart_toStartOf="@+id/imageView"
-                app:layout_constraintTop_toBottomOf="@+id/imageView"
+                app:layout_constraintStart_toStartOf="@+id/gambar_explore"
+                app:layout_constraintTop_toBottomOf="@+id/gambar_explore"
                 app:layout_constraintVertical_bias="0.6" />
 
 
