@@ -1,14 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Setting">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:text="Settings"
+            android:textColor="#FF7B23"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TvPrivacy"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:drawableRight="@drawable/ic_arrow"
+            android:drawableTint="#FF7B23"
+            android:gravity="center|left"
+            android:text="Privacy Policy"
+            android:textColor="#FF7B23"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/TvSugession"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="16dp"
+            android:drawableRight="@drawable/ic_arrow"
+            android:drawableTint="#FF7B23"
+            android:gravity="center|left"
+            android:text="Give a Sugession"
+            android:textColor="#FF7B23"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/TvPrivacy"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/TvPrivacy"
+            app:layout_constraintTop_toBottomOf="@+id/TvPrivacy" />
+
+        <TextView
+            android:id="@+id/TvLkFacebook"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="16dp"
+            android:drawableRight="@drawable/ic_arrow"
+            android:drawableTint="#FF7B23"
+            android:gravity="center|left"
+            android:text="Like Us on Facebook"
+            android:textColor="#FF7B23"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/TvSugession"
+            app:layout_constraintHorizontal_bias="0.88"
+            app:layout_constraintStart_toStartOf="@+id/TvSugession"
+            app:layout_constraintTop_toBottomOf="@+id/TvSugession" />
+
+        <TextView
+            android:id="@+id/TvAppVer"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center|left"
+            android:text="App Version"
+            android:textColor="#FF7B23"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/TvLkTwitter"
+            app:layout_constraintHorizontal_bias="0.449"
+            app:layout_constraintStart_toStartOf="@+id/TvLkTwitter"
+            app:layout_constraintTop_toBottomOf="@+id/TvLkTwitter" />
+
+        <TextView
+            android:id="@+id/TvLkTwitter"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="16dp"
+            android:drawableRight="@drawable/ic_arrow"
+            android:drawableTint="#FF7B23"
+            android:gravity="center|left"
+            android:text="Like us On Twitter"
+            android:textColor="#FF7B23"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/TvLkFacebook"
+            app:layout_constraintHorizontal_bias="0.229"
+            app:layout_constraintStart_toStartOf="@+id/TvLkFacebook"
+            app:layout_constraintTop_toBottomOf="@+id/TvLkFacebook" />
+
+        <TextView
+            android:id="@+id/TvLogOut"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+
+            android:layout_marginBottom="24dp"
+            android:gravity="center|left"
+            android:text="LogOut"
+            android:textColor="#FF7B23"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/TvAppVer"
+            app:layout_constraintStart_toStartOf="@+id/TvAppVer" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Version 0.0.1"
+            app:layout_constraintStart_toStartOf="@+id/TvAppVer"
+            app:layout_constraintTop_toBottomOf="@+id/TvAppVer" />
+
+    </android.support.constraint.ConstraintLayout>
 
 </FrameLayout>
