@@ -117,5 +117,6 @@
             android:layout_marginTop="4dp"
             app:layout_constraintStart_toStartOf="@+id/textView17"
             app:layout_constraintTop_toBottomOf="@+id/textView17" />
+        //waskito asw
     </android.support.constraint.ConstraintLayout>
 </FrameLayout>
