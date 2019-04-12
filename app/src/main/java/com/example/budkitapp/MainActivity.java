@@ -7,9 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class MainActivity extends AppCompatActivity {
 
     private TextView mTextMessage;
+    private FirebaseAuth mAuth;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -55,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                             .beginTransaction()
                             .replace(R.id.fragment_container, setting)
                             .commit();
+                    mAuth.signOut();
                     return true;
             }
             return false;
@@ -66,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Dashboard dashboard = new Dashboard();
+        mAuth = FirebaseAuth.getInstance();
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.fragment_container, dashboard)
