@@ -63,6 +63,11 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
             Toast.makeText(this, "Please enter password", Toast.LENGTH_LONG).show();
             return;
         }
+        if (Password.length() <8 ) {
+
+            passwd.setError("Password minimal 8 karakter");
+            return;
+        }
 
         //if the email and password are not empty
         //displaying a progress dialog
@@ -70,13 +75,15 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
         progressDialog.setMessage("Registering Please Wait...");
         progressDialog.show();
 
-            firebaseAuth.createUserWithEmailAndPassword("user email here", "user password here").addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+            firebaseAuth.createUserWithEmailAndPassword(Email, Password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
                         //display some message here
-                        Toast.makeText(SignUp.this,"Successfully registered",Toast.LENGTH_LONG).show();
+                        startActivity(new Intent(SignUp.this,MainActivity.class));
+                        progressDialog.dismiss();
                         FirebaseUser user = firebaseAuth.getCurrentUser();
+                        finish();
 
                     }else{
                         try {
