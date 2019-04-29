@@ -13,7 +13,20 @@
           "package_name": "com.example.budkitapp"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "190291284500-82v6rghgnakoksdfp8c80l9sjlarqf4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.budkitapp",
+            "certificate_hash": "8dc275b3442e02ae8bae03a6a3b9a1c8f7af3c6c"
+          }
+        },
+        {
+          "client_id": "190291284500-4q68iqffc2kt94h7d9m4h47den6lu1vg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAMeypmY6caWDMxjgUea3HbXMdbBV67NGE"

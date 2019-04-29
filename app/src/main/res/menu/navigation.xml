@@ -5,23 +5,23 @@
     <item
         android:id="@+id/navigation_dashboard"
         android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/title_dashboard" />
+        android:title="Event" />
     <item
         android:id="@+id/navigation_notifications"
         android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/title_notifications" />
+        android:title="Pemberitahuan" />
 
     <item
         android:id="@+id/navigation_explore"
         android:icon="@drawable/compass"
-        android:title="explore" />
+        android:title="Jelajah" />
     <item
         android:id="@+id/navigation_account"
         android:icon="@drawable/user"
-        android:title="accounts" />
+        android:title="Akun" />
     <item
         android:id="@+id/navigation_setting"
         android:icon="@drawable/settings"
-        android:title="settings" />
+        android:title="Pengaturan" />
 
 </menu>

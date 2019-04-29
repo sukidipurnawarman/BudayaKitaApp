@@ -6,24 +6,22 @@
     <string name="title_activity_on_boarding">OnBoarding</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="title1">Learn The Culture</string>
-    <string name="title2">Fun-Fact About The Place</string>
-    <string name="title3">Know More About Indonesia</string>
-    <string name="description1"> Learn your culture by looking at whatever culture is in your culture application. don\'t let people out there know more than you.</string>
-    <string name="description2">You can get interesting knowledge about a place in Indonesia that you don\'t know yet </string>
-    <string name="description3">you will be able to open your knowledge more broadly about your nationality in Indonesia.</string>
+    <string name="title1">Pelajari Budayamu</string>
+    <string name="title2">Fakta Menarik Tentang Tempat di Indonesia</string>
+    <string name="title3">Ketahui Lebih Banyak Tentang Indonesia</string>
+    <string name="description1"> Pelajari budayamu dengan melihat aplikasi budayakita. jangan biarkan orang di luar sana tahu lebih banyak dari Anda.</string>
+    <string name="description2">Anda bisa mendapatkan pengetahuan tentang tempat yang menarik di Indonesia yang belum Anda ketahui</string>
+    <string name="description3">Anda akan dapat membuka pengetahuan Anda secara lebih luas tentang kewarganegaraan Anda di Indonesia.</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in">masuk atau daftar</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
-    <string name="title_activity_register">Sign in</string>
+    <string name="error_invalid_email">Maaf, email mu salah</string>
+    <string name="error_invalid_password">Password terlalu pendek</string>
+    <string name="error_incorrect_password">Password salah</string>
+    <string name="error_field_required">Harus diisi</string>
+    <string name="permission_rationale">"Izin kontak diperlukan untuk memberikan penyelesaian email."</string>
+    <string name="title_activity_register">Masuk</string>
     <string name="title_activity_main_home">MainHome</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
